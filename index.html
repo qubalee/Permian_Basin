@@ -18,6 +18,26 @@
             color: #1a237e;
         }
 
+        .app-link {
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+        .app-link a {
+            background-color: #1a237e;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .app-link a:hover {
+            background-color: #3949ab;
+        }
+
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -51,9 +71,14 @@
 
 <h1>PermianBasinAI App Results</h1>
 
+<div class="app-link">
+    <a href="https://apps.apple.com/us/app/permianbasinai/id6753719395" target="_blank">
+        Go to the PermianBasinAI App on the App Store
+    </a>
+</div>
+
 <div class="gallery">
 
-    <!-- Images -->
     <div class="card"><img src="https://raw.githubusercontent.com/qubalee/Permian_Basin/refs/heads/main/b_value.png"><div class="caption">b_value</div></div>
     <div class="card"><img src="https://raw.githubusercontent.com/qubalee/Permian_Basin/refs/heads/main/depth.png"><div class="caption">depth</div></div>
     <div class="card"><img src="https://raw.githubusercontent.com/qubalee/Permian_Basin/refs/heads/main/energy.png"><div class="caption">energy</div></div>
